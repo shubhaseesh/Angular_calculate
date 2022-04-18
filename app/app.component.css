@@ -1,0 +1,16 @@
+.toggle{
+    margin: 0% 0% 40%;
+    align-items: center;
+    background-color: bisque;
+    height: 60px;
+    width: 300px;
+}
+
+.toggle button{
+    width:inherit;
+    height: 40px;
+    background-color: rgba(255, 251, 251, 0.944);
+    font-size: 25px;
+    color: rgb(106, 8, 8);
+    font-weight: 700;
+}

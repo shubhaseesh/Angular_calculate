@@ -1,0 +1,6 @@
+<div class="toggle">
+<button (click)="toggle1()">Normal Calculator</button>
+<app-calculator *ngIf="showMe1"></app-calculator>
+<button (click)="toggle2()">Scientific Calculator</button>
+<app-scientific *ngIf="showMe2"></app-scientific>
+</div>

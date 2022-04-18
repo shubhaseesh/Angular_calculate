@@ -1,0 +1,43 @@
+<html>
+<body>
+    <div class="scientific">
+      <input type="text" class="scientific-screen" [value]="currentNumber" disabled />
+      <div class="scientific-keys">
+        <button type="button" (click)="getNumber('7')" value="7">7</button>
+        <button type="button" (click)="getNumber('8')" value="8">8</button>
+        <button type="button" (click)="getNumber('9')" value="9">9</button>
+        <button type="button" (click)="getOperation('+')" class="operator" value="+">&#43;</button>
+        <button type="button" (click)="getOperation('-')" class="operator" value="-">&#8722;</button>
+        <button type="button" (click)="getOperation('*')" class="operator" value="*">&#215;</button>
+        <button type="button" (click)="getNumber('/')" class="operator" value="/">&#247;</button>
+        
+        <button type="button" (click)="getNumber('4')" value="4">4</button>
+        <button type="button" (click)="getNumber('5')" value="5">5</button>
+        <button type="button" (click)="getNumber('6')" value="6">6</button>
+        <button type="button" (click)="getPercent()" class="operator">&#37;</button>
+        <button type="button" (click)="getPow()" class="operator">x<sup>y</sup></button>
+        <button type="button" (click)="getExp()" class="operator">e</button>
+        <button type="button" (click)="getNumber('°')" class="operator" value="°">Deg</button>
+        
+        <button type="button" (click)="getNumber('1')" value="1">1</button>
+        <button type="button" (click)="getNumber('2')" value="2">2</button>
+        <button type="button" (click)="getNumber('3')" value="3">3</button>
+        <button type="button" (click)="getOperation('sin')" class="operator" value="sin">Sin</button>
+        <button type="button" (click)="getOperation('cos')" class="operator" value="cos">Cos</button>
+        <button type="button" (click)="getOperation('tan')" class="operator" value="tan">Tan</button>
+        <button type="button" (click)="getOperation('rad')" class="operator" value="">Rad</button>
+       
+        <button type="button" (click)="getDecimal()" class="decimal" value=".">.</button>
+        <button type="button" (click)="getNumber('0')" value="0">0</button>
+        <button type="button" (click)="backFunction()" class="operator-back">&#8592;</button>
+        <button type="button" (click)="getOperation('(')" class="operator-paranthesis" value="(">&#x207D;</button>
+        <button type="button" (click)="getOperation(')')" class="operator-paranthesis" value=")">&#x207E;</button>
+        <button type="button" (click)="clear()" class="all-clear" value="all-clear">AC</button>
+        <button type="button" (click)="getOperation('=')" class="equal-sign" value="=">Ans</button>
+        
+
+      </div>
+    </div>
+  </body>
+
+  </html>
