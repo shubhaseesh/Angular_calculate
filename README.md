@@ -1,6 +1,7 @@
 # Project
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.17.
+It has components Calculator and Scientific responsible for functioning as normal/scientific calculator.
 
 ## Development server
 
