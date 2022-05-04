@@ -1,0 +1,30 @@
+.toggle{
+  align-items: right;
+  background-color: rgb(255, 199, 131);
+  display: flex; 
+  justify-content: space-around;
+  flex-direction: row;
+}
+.toggle h1{
+  color: red;
+  margin-left: 15em;
+  font-size: 26px;
+  font-family:'Courier New', Courier, monospace;
+}
+
+.normal-a {
+  padding: 1rem 1rem 1rem 1rem;
+  font-size: larger;
+  /* height: 30px;
+  width: 60px; */
+}
+.scientific-a {
+  padding: 1rem 1rem 1rem 1rem;
+  font-size: larger;
+  /* height: 30px;
+  width: 60px; */
+}
+
+.calculator-routed {
+  margin: 10px;
+}
